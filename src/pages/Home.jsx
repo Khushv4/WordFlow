@@ -3,8 +3,7 @@ import appwriteService from '../appwrite/config'
 import { Container, PostCard, Button} from '../components'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import {Parallax} from 'react-parallax'
-import BBlog from '../assets/BBlog.png'
+
 
 
 
