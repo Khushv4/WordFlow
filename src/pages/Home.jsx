@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import appwriteService from '../appwrite/config'
-import Blog from '../assets/Blog.png'
 import { Container, PostCard, Button} from '../components'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
