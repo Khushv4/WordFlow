@@ -28,9 +28,9 @@ function Home() {
     return (
       <div className="w-full py-8 mt-4 text-center bg-yellow-50">
         <Container>
-          <div className="flex flex-wrap">
+          
             <div className=" w-full">
-              <h1 className="text-5xl mt-4 font-bold hover:animate-pulse duration-1000">
+              <h1 className="text-5xl mt-24 font-bold hover:animate-pulse duration-1000">
                 Welcome To WordFlow
               </h1>
 
@@ -44,7 +44,7 @@ function Home() {
                 </Button>
               </Link>
             </div>
-          </div>
+          
         </Container>
 
         
@@ -58,7 +58,7 @@ function Home() {
   }
 
   return(
-    <div className='flex w-full py-8 '>
+    <div className='flex flex-wrap w-full py-8 '>
       {posts.map((post)=>(
         <div key={post.$id} className=' p-22 pt-1  w-1/2'>
           <PostCard {...post}/>
