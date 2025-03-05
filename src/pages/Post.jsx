@@ -32,7 +32,7 @@ export default function Post() {
     };
 
     return post ? (
-        <div className="py-8 pt-22">
+        <div className="py-8 pt-22 ">
             <Container>
                 <div className="p-4  border rounded-xl bg-gray-50 shadow-lg">
                     <div className="text-center w-full mb-6">

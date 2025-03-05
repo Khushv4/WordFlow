@@ -14,7 +14,7 @@ function Home() {
   
    
  
-   console.log(userData)
+   
 
   useEffect(()=>{
     appwriteService.getPosts().then((posts)=>{
@@ -60,7 +60,7 @@ function Home() {
   return(
     <div className='flex flex-wrap w-full py-8 '>
       {posts.map((post)=>(
-        <div key={post.$id} className=' p-22 pt-1  w-1/2'>
+        <div key={post.$id} className=' p-27 pt-15  content-center w-2xl '>
           <PostCard {...post}/>
         </div>
       ))}
